@@ -8,4 +8,4 @@
    - name: show run
      ios_command:
         commands:
-         - show run
+         - show running
