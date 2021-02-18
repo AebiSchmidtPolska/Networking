@@ -1,0 +1,8 @@
+---
+- hosts: all
+  tasks:
+    - name: enable and start chronyd
+      service:
+        name: chronyd
+        state: started
+        enabled: true
